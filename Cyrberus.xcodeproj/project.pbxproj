@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0324C6D71842F89400A2CBE1 /* DspRedux.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0324C6D51842F89400A2CBE1 /* DspRedux.cpp */; };
+		0354A0C918436B0800893A05 /* DspPhasor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0354A0C718436B0800893A05 /* DspPhasor.cpp */; };
+		0354A0E218436E9D00893A05 /* crush.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0354A0CE18436E9D00893A05 /* crush.cpp */; };
+		0354A0E318436E9D00893A05 /* foldBackDistortion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0354A0D118436E9D00893A05 /* foldBackDistortion.cpp */; };
+		0354A0E418436E9D00893A05 /* phasor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0354A0D418436E9D00893A05 /* phasor.cpp */; };
+		0354A0E518436E9D00893A05 /* allpass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0354A0D718436E9D00893A05 /* allpass.cpp */; };
+		0354A0E618436E9D00893A05 /* comb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0354A0D918436E9D00893A05 /* comb.cpp */; };
+		0354A0E718436E9D00893A05 /* revmodel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0354A0DC18436E9D00893A05 /* revmodel.cpp */; };
+		03B9D10F1840646D00F23AEA /* DspReverb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03B9D10D1840646D00F23AEA /* DspReverb.cpp */; };
+		03FD82D7184335DB001BA459 /* DspFBDistortion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03FD82D5184335DB001BA459 /* DspFBDistortion.cpp */; };
 		30577204183F1DFF00DE1FD0 /* JenDsp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 305771C9183F1DFF00DE1FD0 /* JenDsp.cpp */; };
 		30577205183F1DFF00DE1FD0 /* ofSoundEffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 305771CC183F1DFF00DE1FD0 /* ofSoundEffect.cpp */; };
 		30577206183F1DFF00DE1FD0 /* ofSoundMixer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 305771CF183F1DFF00DE1FD0 /* ofSoundMixer.cpp */; };
@@ -85,6 +95,31 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0324C6D51842F89400A2CBE1 /* DspRedux.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DspRedux.cpp; sourceTree = "<group>"; };
+		0324C6D61842F89400A2CBE1 /* DspRedux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DspRedux.h; sourceTree = "<group>"; };
+		0354A0C718436B0800893A05 /* DspPhasor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DspPhasor.cpp; sourceTree = "<group>"; };
+		0354A0C818436B0800893A05 /* DspPhasor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DspPhasor.h; sourceTree = "<group>"; };
+		0354A0CB18436E9D00893A05 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		0354A0CE18436E9D00893A05 /* crush.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = crush.cpp; sourceTree = "<group>"; };
+		0354A0CF18436E9D00893A05 /* crush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crush.h; sourceTree = "<group>"; };
+		0354A0D118436E9D00893A05 /* foldBackDistortion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = foldBackDistortion.cpp; sourceTree = "<group>"; };
+		0354A0D218436E9D00893A05 /* foldBackDistortion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = foldBackDistortion.h; sourceTree = "<group>"; };
+		0354A0D418436E9D00893A05 /* phasor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = phasor.cpp; sourceTree = "<group>"; };
+		0354A0D518436E9D00893A05 /* phasor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = phasor.h; sourceTree = "<group>"; };
+		0354A0D718436E9D00893A05 /* allpass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = allpass.cpp; sourceTree = "<group>"; };
+		0354A0D818436E9D00893A05 /* allpass.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = allpass.hpp; sourceTree = "<group>"; };
+		0354A0D918436E9D00893A05 /* comb.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = comb.cpp; sourceTree = "<group>"; };
+		0354A0DA18436E9D00893A05 /* comb.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = comb.hpp; sourceTree = "<group>"; };
+		0354A0DB18436E9D00893A05 /* denormals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = denormals.h; sourceTree = "<group>"; };
+		0354A0DC18436E9D00893A05 /* revmodel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = revmodel.cpp; sourceTree = "<group>"; };
+		0354A0DD18436E9D00893A05 /* revmodel.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = revmodel.hpp; sourceTree = "<group>"; };
+		0354A0DE18436E9D00893A05 /* tuning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tuning.h; sourceTree = "<group>"; };
+		0354A0DF18436E9D00893A05 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		0354A0E118436E9D00893A05 /* ofxDSP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxDSP.h; sourceTree = "<group>"; };
+		03B9D10D1840646D00F23AEA /* DspReverb.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DspReverb.cpp; sourceTree = "<group>"; };
+		03B9D10E1840646D00F23AEA /* DspReverb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DspReverb.h; sourceTree = "<group>"; };
+		03FD82D5184335DB001BA459 /* DspFBDistortion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DspFBDistortion.cpp; sourceTree = "<group>"; };
+		03FD82D6184335DB001BA459 /* DspFBDistortion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DspFBDistortion.h; sourceTree = "<group>"; };
 		305771C9183F1DFF00DE1FD0 /* JenDsp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JenDsp.cpp; sourceTree = "<group>"; };
 		305771CA183F1DFF00DE1FD0 /* JenDsp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JenDsp.h; sourceTree = "<group>"; };
 		305771CC183F1DFF00DE1FD0 /* ofSoundEffect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofSoundEffect.cpp; sourceTree = "<group>"; };
@@ -284,6 +319,79 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0354A0CA18436E9D00893A05 /* ofxDSP */ = {
+			isa = PBXGroup;
+			children = (
+				0354A0CB18436E9D00893A05 /* .gitignore */,
+				0354A0CC18436E9D00893A05 /* libs */,
+				0354A0DF18436E9D00893A05 /* README.txt */,
+				0354A0E018436E9D00893A05 /* src */,
+			);
+			name = ofxDSP;
+			path = addons/ofxDSP;
+			sourceTree = "<group>";
+		};
+		0354A0CC18436E9D00893A05 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				0354A0CD18436E9D00893A05 /* crush */,
+				0354A0D018436E9D00893A05 /* foldbackDistortion */,
+				0354A0D318436E9D00893A05 /* phaser */,
+				0354A0D618436E9D00893A05 /* reverb */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		0354A0CD18436E9D00893A05 /* crush */ = {
+			isa = PBXGroup;
+			children = (
+				0354A0CE18436E9D00893A05 /* crush.cpp */,
+				0354A0CF18436E9D00893A05 /* crush.h */,
+			);
+			path = crush;
+			sourceTree = "<group>";
+		};
+		0354A0D018436E9D00893A05 /* foldbackDistortion */ = {
+			isa = PBXGroup;
+			children = (
+				0354A0D118436E9D00893A05 /* foldBackDistortion.cpp */,
+				0354A0D218436E9D00893A05 /* foldBackDistortion.h */,
+			);
+			path = foldbackDistortion;
+			sourceTree = "<group>";
+		};
+		0354A0D318436E9D00893A05 /* phaser */ = {
+			isa = PBXGroup;
+			children = (
+				0354A0D418436E9D00893A05 /* phasor.cpp */,
+				0354A0D518436E9D00893A05 /* phasor.h */,
+			);
+			path = phaser;
+			sourceTree = "<group>";
+		};
+		0354A0D618436E9D00893A05 /* reverb */ = {
+			isa = PBXGroup;
+			children = (
+				0354A0D718436E9D00893A05 /* allpass.cpp */,
+				0354A0D818436E9D00893A05 /* allpass.hpp */,
+				0354A0D918436E9D00893A05 /* comb.cpp */,
+				0354A0DA18436E9D00893A05 /* comb.hpp */,
+				0354A0DB18436E9D00893A05 /* denormals.h */,
+				0354A0DC18436E9D00893A05 /* revmodel.cpp */,
+				0354A0DD18436E9D00893A05 /* revmodel.hpp */,
+				0354A0DE18436E9D00893A05 /* tuning.h */,
+			);
+			path = reverb;
+			sourceTree = "<group>";
+		};
+		0354A0E018436E9D00893A05 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				0354A0E118436E9D00893A05 /* ofxDSP.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
 		305771C3183F1DFF00DE1FD0 /* GUI */ = {
 			isa = PBXGroup;
 			children = (
@@ -312,6 +420,14 @@
 			children = (
 				305771CC183F1DFF00DE1FD0 /* ofSoundEffect.cpp */,
 				305771CD183F1DFF00DE1FD0 /* ofSoundEffect.h */,
+				0324C6D51842F89400A2CBE1 /* DspRedux.cpp */,
+				0324C6D61842F89400A2CBE1 /* DspRedux.h */,
+				03FD82D5184335DB001BA459 /* DspFBDistortion.cpp */,
+				03FD82D6184335DB001BA459 /* DspFBDistortion.h */,
+				03B9D10D1840646D00F23AEA /* DspReverb.cpp */,
+				03B9D10E1840646D00F23AEA /* DspReverb.h */,
+				0354A0C718436B0800893A05 /* DspPhasor.cpp */,
+				0354A0C818436B0800893A05 /* DspPhasor.h */,
 			);
 			path = ofSoundEffect;
 			sourceTree = "<group>";
@@ -651,6 +767,7 @@
 		BB4B014C10F69532006C3DED /* addons */ = {
 			isa = PBXGroup;
 			children = (
+				0354A0CA18436E9D00893A05 /* ofxDSP */,
 				3077D995183F381800037AD1 /* ofxUI-master */,
 				3057755A183F36CE00DE1FD0 /* ofxXmlSettings */,
 			);
@@ -830,9 +947,11 @@
 			files = (
 				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
 				E4B69E210A3A1BDC003C02F2 /* testApp.cpp in Sources */,
+				0354A0E618436E9D00893A05 /* comb.cpp in Sources */,
 				30577214183F1DFF00DE1FD0 /* Position.cpp in Sources */,
 				30577206183F1DFF00DE1FD0 /* ofSoundMixer.cpp in Sources */,
 				30577593183F36CE00DE1FD0 /* tinyxml.cpp in Sources */,
+				0354A0E518436E9D00893A05 /* allpass.cpp in Sources */,
 				30577596183F36CE00DE1FD0 /* ofxXmlSettings.cpp in Sources */,
 				30577205183F1DFF00DE1FD0 /* ofSoundEffect.cpp in Sources */,
 				30577225183F2E4100DE1FD0 /* InstrumentEditor.cpp in Sources */,
@@ -843,18 +962,26 @@
 				30577595183F36CE00DE1FD0 /* tinyxmlparser.cpp in Sources */,
 				30577211183F1DFF00DE1FD0 /* Frequency.cpp in Sources */,
 				3057720F183F1DFF00DE1FD0 /* Envelope.cpp in Sources */,
+				03B9D10F1840646D00F23AEA /* DspReverb.cpp in Sources */,
 				30577210183F1DFF00DE1FD0 /* Point.cpp in Sources */,
+				0354A0C918436B0800893A05 /* DspPhasor.cpp in Sources */,
 				30577209183F1DFF00DE1FD0 /* ofVolume.cpp in Sources */,
+				03FD82D7184335DB001BA459 /* DspFBDistortion.cpp in Sources */,
+				0354A0E718436E9D00893A05 /* revmodel.cpp in Sources */,
 				3057720E183F1DFF00DE1FD0 /* Algebraic.cpp in Sources */,
 				3057720C183F1DFF00DE1FD0 /* Oscillator.cpp in Sources */,
 				3057721D183F201500DE1FD0 /* GuiGlobal.cpp in Sources */,
 				30577212183F1DFF00DE1FD0 /* JenClamp.cpp in Sources */,
 				30577207183F1DFF00DE1FD0 /* ofSoundUnit.cpp in Sources */,
 				3057720B183F1DFF00DE1FD0 /* Instrument.cpp in Sources */,
+				0324C6D71842F89400A2CBE1 /* DspRedux.cpp in Sources */,
 				30577204183F1DFF00DE1FD0 /* JenDsp.cpp in Sources */,
+				0354A0E318436E9D00893A05 /* foldBackDistortion.cpp in Sources */,
 				30577594183F36CE00DE1FD0 /* tinyxmlerror.cpp in Sources */,
+				0354A0E418436E9D00893A05 /* phasor.cpp in Sources */,
 				30577216183F1DFF00DE1FD0 /* TimeLength.cpp in Sources */,
 				30577215183F1DFF00DE1FD0 /* FocalPoint.cpp in Sources */,
+				0354A0E218436E9D00893A05 /* crush.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

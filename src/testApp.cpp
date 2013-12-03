@@ -41,7 +41,7 @@ void testApp::keyPressed(int key){
         clock_t time1 = clock();
         
         /* This determines the instrument's normaliser */
-        instrumentEditor.inst->getNormaliser();
+        //instrumentEditor.inst->getNormaliser();
         
         //instrumentEditor.inst->analyseInstrument();
         //instrumentEditor.inst->printAnalysisData();

@@ -15,6 +15,10 @@
 #include "ofSoundMixer.h"
 #include "ofVolume.h"
 #include "InstrumentEditor.h"
+#include "DspReverb.h"
+#include "DspRedux.h"
+#include "DspFBDistortion.h"
+#include "DspPhasor.h"
 
 /* Class */
 
@@ -25,7 +29,7 @@ public:
     /* Constructor */
     
     JenDsp(){
-        ieVol = 1.0;
+        ieVol = 0.5;
     }
     
     /* Functions */
@@ -46,6 +50,12 @@ public:
     Oscillator *oscillator;
     
     InstrumentEditor *ie;
+    
+    /* DSP Process */
+    DspReverb reverb;
+    DspRedux  redux;
+    DspFBDistortion distortion;
+    DspPhasor phasor;
     
     /* Channels */
     ofSoundMixer ieMixer;

@@ -14,16 +14,26 @@
 
 void JenDsp::setup(InstrumentEditor *_instrumentEditor)
 {
+    redux.setup();
+    reverb.setup();
     
     ie = _instrumentEditor;
     
     updateInstrumentEditorChannels();
     
+    /* DSP */
     ieVolume.setVolume(ieVol);
     ieVolume.addInputFrom(&ieMixer);
-    
-    soundMixer.addInputFrom(&ieVolume);
-    
+    redux.addInputFrom(&ieVolume);
+    //reverb.addInputFrom(&ieVolume);
+//    distortion.addInputFrom(&ieVolume);
+//    phasor.addInputFrom(&ieVolume);
+  
+    /* Mixers */
+    soundMixer.addInputFrom(&redux);
+  //  soundMixer.addInputFrom(&reverb);
+  //  soundMixer.addInputFrom(&distortion);
+  //  soundMixer.addInputFrom((&phasor));
     return;
     
 }
